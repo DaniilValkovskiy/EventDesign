@@ -16,4 +16,4 @@ export const router = createBrowserRouter([
       { path: "events/:id", Component: EventDetail },
     ],
   },
-]);
+], { basename: '/EventDesign' });
